@@ -1,5 +1,91 @@
-<h1 style="color:#000000;background-color:Gold">นี่คือซีรีย์เกาหลี</h1>
-<a href="index2.html" target="_blank">คลิกเพื่อเปิดซีรีย์เเนวถัดไปของฉัน</a><br>
-<a href="work.html" target="_blank">คลิกเพื่อกลับไปหน้าก่อนหน้านี้</a><br>
-<a href="index.html" target="_blank">คลิกเพื่อกลับไปหน้าหลัก</a><br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mBECArSvaRs?si=ek7W91yju3rhwdgJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ซีรีส์จีน</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+body{
+    margin:0;
+    font-family:'Prompt', sans-serif;
+    background: linear-gradient(135deg,#ff9a9e,#fad0c4);
+    text-align:center;
+}
+
+h1{
+    padding:25px;
+    margin:0;
+    background:#ffffffaa;
+    font-size:32px;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+    padding:40px;
+}
+
+.card{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,0.2);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card img{
+    width:100%;
+    height:320px;
+    object-fit:cover;
+}
+
+.card h3{
+    padding:10px;
+}
+
+.card a{
+    display:inline-block;
+    margin:15px;
+    padding:8px 20px;
+    background:#ff6b6b;
+    color:white;
+    text-decoration:none;
+    border-radius:20px;
+    transition:0.3s;
+}
+
+.card a:hover{
+    background:#ff3b3b;
+}
+</style>
+</head>
+
+<body>
+
+<h1>🎬 นี่คือซีรีส์จีนยอดนิยม</h1>
+
+<div class="container">
+
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/en/7/70/Hidden_Love_%282023_TV_series%29.jpg" alt="Hidden Love">
+        <h3>Hidden Love (แอบรักให้เธอรู้)</h3>
+        <a href="hiddenlove.html" target="_blank">ดูรายละเอียด</a>
+    </div>
+
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/en/1/12/Love_Between_Fairy_and_Devil.jpg" alt="Love Between Fairy and Devil">
+        <h3>Love Between Fairy and Devil</h3>
+        <a href="fairydevil.html" target="_blank">ดูรายละเอียด</a>
+    </div>
+
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/en/3/3e/The_Untamed_%28TV_series%29.jpg" alt="The Untamed">
+        <h3
