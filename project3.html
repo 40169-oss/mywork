@@ -11,7 +11,7 @@
 body{
     margin:0;
     font-family:'Prompt', sans-serif;
-    background: linear-gradient(135deg,#d299c2,#fef9d7);
+    background: linear-gradient(135deg,#c3cfe2,#f5f7fa);
     text-align:center;
 }
 
@@ -23,60 +23,77 @@ h1{
 
 .container{
     display:grid;
-    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
-    gap:30px;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
     padding:40px;
 }
 
 .card{
     background:white;
-    padding:15px;
+    padding:20px;
     border-radius:15px;
     box-shadow:0 8px 20px rgba(0,0,0,0.2);
+    transition:0.3s;
 }
 
-iframe{
-    width:100%;
-    height:250px;
-    border-radius:10px;
+.card:hover{
+    transform:translateY(-10px);
+}
+
+a{
+    display:inline-block;
+    margin-top:10px;
+    padding:10px 20px;
+    background:#6c63ff;
+    color:white;
+    text-decoration:none;
+    border-radius:20px;
+}
+a:hover{
+    background:#4b42d6;
 }
 </style>
 </head>
 
 <body>
 
-<h1>🎬 ซีรีย์เกาหลียอดนิยม</h1>
+<h1>🎬 ซีรีย์เกาหลียอดนิยม (ดูใน YouTube)</h1>
 
 <div class="container">
 
     <div class="card">
         <h3>Queen of Tears</h3>
-        <iframe src="https://www.youtube.com/embed/y7R4bFfY1yU" 
-        allowfullscreen></iframe>
+        <a href="https://www.youtube.com/results?search_query=Queen+of+Tears+Official+Trailer" target="_blank">
+        ดูตัวอย่าง
+        </a>
     </div>
 
     <div class="card">
         <h3>True Beauty</h3>
-        <iframe src="https://www.youtube.com/embed/3VZpXh5W9mY" 
-        allowfullscreen></iframe>
+        <a href="https://www.youtube.com/results?search_query=True+Beauty+Official+Trailer" target="_blank">
+        ดูตัวอย่าง
+        </a>
     </div>
 
     <div class="card">
         <h3>Crash Landing on You</h3>
-        <iframe src="https://www.youtube.com/embed/eXMjTXL2Vks" 
-        allowfullscreen></iframe>
+        <a href="https://www.youtube.com/results?search_query=Crash+Landing+on+You+Official+Trailer" target="_blank">
+        ดูตัวอย่าง
+        </a>
     </div>
 
     <div class="card">
         <h3>All of Us Are Dead</h3>
-        <iframe src="https://www.youtube.com/embed/IN5TD4VRcSM" 
-        allowfullscreen></iframe>
+        <a href="https://www.youtube.com/results?search_query=All+of+Us+Are+Dead+Official+Trailer" target="_blank">
+        ดูตัวอย่าง
+        </a>
     </div>
 
     <div class="card">
         <h3>Business Proposal</h3>
-        <iframe src="https://www.youtube.com/embed/mh4R-WXRhQo" 
-        allowfullscreen></iframe>
+        <a href="https://www.youtube.com/results?search_query=Business+Proposal+Official+Trailer" target="_blank">
+        ดูตัวอย่าง
+        </a>
     </div>
 
 </div>
