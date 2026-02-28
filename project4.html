@@ -11,7 +11,7 @@
 body{
     margin:0;
     font-family:'Prompt', sans-serif;
-    background: linear-gradient(135deg,#84fab0,#8fd3f4);
+    background: linear-gradient(135deg,#a18cd1,#fbc2eb);
     text-align:center;
 }
 
@@ -23,55 +23,77 @@ h1{
 
 .container{
     display:grid;
-    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
-    gap:30px;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
     padding:40px;
 }
 
 .card{
     background:white;
-    padding:15px;
+    padding:20px;
     border-radius:15px;
     box-shadow:0 8px 20px rgba(0,0,0,0.2);
+    transition:0.3s;
 }
 
-iframe{
-    width:100%;
-    height:250px;
-    border-radius:10px;
+.card:hover{
+    transform:translateY(-10px);
+}
+
+a{
+    display:inline-block;
+    margin-top:10px;
+    padding:10px 20px;
+    background:#6a4c93;
+    color:white;
+    text-decoration:none;
+    border-radius:20px;
+}
+a:hover{
+    background:#4a3570;
 }
 </style>
 </head>
 
 <body>
 
-<h1>🎬 ซีรีย์ไทยยอดนิยม</h1>
+<h1>🎬 ซีรีย์ไทยยอดนิยม (ดูตัวอย่างใน YouTube)</h1>
 
 <div class="container">
 
     <div class="card">
         <h3>บุพเพสันนิวาส</h3>
-        <iframe src="https://www.youtube.com/embed/Vv7f1H5cX9M" allowfullscreen></iframe>
+        <a href="https://www.youtube.com/results?search_query=บุพเพสันนิวาส+Official+Trailer" target="_blank">
+        ดูตัวอย่าง
+        </a>
     </div>
 
     <div class="card">
         <h3>แปลรักฉันด้วยใจเธอ</h3>
-        <iframe src="https://www.youtube.com/embed/8Y2gK1qNBF8" allowfullscreen></iframe>
+        <a href="https://www.youtube.com/results?search_query=แปลรักฉันด้วยใจเธอ+Official+Trailer" target="_blank">
+        ดูตัวอย่าง
+        </a>
     </div>
 
     <div class="card">
-        <h3>ฮอร์โมน วัยว้าวุ่น</h3>
-        <iframe src="https://www.youtube.com/embed/6KkQ3QnK8vA" allowfullscreen></iframe>
+        <h3>คินน์พอร์ช</h3>
+        <a href="https://www.youtube.com/results?search_query=คินน์พอร์ช+Official+Trailer" target="_blank">
+        ดูตัวอย่าง
+        </a>
     </div>
 
     <div class="card">
-        <h3>ฉลาดเกมส์โกง</h3>
-        <iframe src="https://www.youtube.com/embed/d9nVJrL5qk0" allowfullscreen></iframe>
+        <h3>ฮอร์โมนส์ วัยว้าวุ่น</h3>
+        <a href="https://www.youtube.com/results?search_query=ฮอร์โมนส์+วัยว้าวุ่น+Official+Trailer" target="_blank">
+        ดูตัวอย่าง
+        </a>
     </div>
 
     <div class="card">
-        <h3>กรงกรรม</h3>
-        <iframe src="https://www.youtube.com/embed/tF1xj5u7K8A" allowfullscreen></iframe>
+        <h3>รักฉุดใจนายฉุกเฉิน</h3>
+        <a href="https://www.youtube.com/results?search_query=รักฉุดใจนายฉุกเฉิน+Official+Trailer" target="_blank">
+        ดูตัวอย่าง
+        </a>
     </div>
 
 </div>
