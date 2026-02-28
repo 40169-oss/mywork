@@ -23,55 +23,77 @@ h1{
 
 .container{
     display:grid;
-    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
-    gap:30px;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
     padding:40px;
 }
 
 .card{
     background:white;
-    padding:15px;
+    padding:20px;
     border-radius:15px;
     box-shadow:0 8px 20px rgba(0,0,0,0.2);
+    transition:0.3s;
 }
 
-iframe{
-    width:100%;
-    height:250px;
-    border-radius:10px;
+.card:hover{
+    transform:translateY(-10px);
+}
+
+a{
+    display:inline-block;
+    margin-top:10px;
+    padding:10px 20px;
+    background:#ff4d6d;
+    color:white;
+    text-decoration:none;
+    border-radius:20px;
+}
+a:hover{
+    background:#c9184a;
 }
 </style>
 </head>
 
 <body>
 
-<h1>🎬 ซีรีย์จีนยอดนิยม</h1>
+<h1>🎬 ซีรีย์จีนยอดนิยม (ดูใน YouTube)</h1>
 
 <div class="container">
 
     <div class="card">
         <h3>Hidden Love</h3>
-        <iframe src="https://youtu.be/iE5Y_2OnnCE?si=WsGthI7xHus1gVYz" allowfullscreen></iframe>
-    </div>
-
-    <div class="card">
-        <h3>Love Between Fairy and Devil</h3>
-        <iframe src="https://www.youtube.com/embed/Y0gqR1LxY1A" allowfullscreen></iframe>
+        <a href="https://www.youtube.com/results?search_query=Hidden+Love+Official+Trailer" target="_blank">
+        ดูตัวอย่าง
+        </a>
     </div>
 
     <div class="card">
         <h3>The Untamed</h3>
-        <iframe src="https://www.youtube.com/embed/rAsP69G5rW0" allowfullscreen></iframe>
+        <a href="https://www.youtube.com/results?search_query=The+Untamed+Official+Trailer" target="_blank">
+        ดูตัวอย่าง
+        </a>
+    </div>
+
+    <div class="card">
+        <h3>Love Between Fairy and Devil</h3>
+        <a href="https://www.youtube.com/results?search_query=Love+Between+Fairy+and+Devil+Official+Trailer" target="_blank">
+        ดูตัวอย่าง
+        </a>
     </div>
 
     <div class="card">
         <h3>You Are My Glory</h3>
-        <iframe src="https://www.youtube.com/embed/9a9bJfZP0xM" allowfullscreen></iframe>
+        <a href="https://www.youtube.com/results?search_query=You+Are+My+Glory+Official+Trailer" target="_blank">
+        ดูตัวอย่าง
+        </a>
     </div>
 
     <div class="card">
         <h3>Put Your Head on My Shoulder</h3>
-        <iframe src="https://www.youtube.com/embed/JF1kK0nJQK0" allowfullscreen></iframe>
+        <a href="https://www.youtube.com/results?search_query=Put+Your+Head+on+My+Shoulder+Official+Trailer" target="_blank">
+        ดูตัวอย่าง
+        </a>
     </div>
 
 </div>
