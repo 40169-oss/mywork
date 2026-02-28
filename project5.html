@@ -11,7 +11,7 @@
 body{
     margin:0;
     font-family:'Prompt', sans-serif;
-    background: linear-gradient(135deg,#fbc2eb,#a6c1ee);
+    background: linear-gradient(135deg,#89f7fe,#66a6ff);
     text-align:center;
 }
 
@@ -23,55 +23,77 @@ h1{
 
 .container{
     display:grid;
-    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
-    gap:30px;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
     padding:40px;
 }
 
 .card{
     background:white;
-    padding:15px;
+    padding:20px;
     border-radius:15px;
     box-shadow:0 8px 20px rgba(0,0,0,0.2);
+    transition:0.3s;
 }
 
-iframe{
-    width:100%;
-    height:250px;
-    border-radius:10px;
+.card:hover{
+    transform:translateY(-10px);
+}
+
+a{
+    display:inline-block;
+    margin-top:10px;
+    padding:10px 20px;
+    background:#1e3c72;
+    color:white;
+    text-decoration:none;
+    border-radius:20px;
+}
+a:hover{
+    background:#16325c;
 }
 </style>
 </head>
 
 <body>
 
-<h1>🎬 ซีรีย์วายยอดนิยม</h1>
+<h1>🎬 ซีรีย์วายยอดนิยม (ดูตัวอย่างใน YouTube)</h1>
 
 <div class="container">
 
     <div class="card">
-        <h3>2gether The Series</h3>
-        <iframe src="https://www.youtube.com/embed/6O5i7R6L0Yg" allowfullscreen></iframe>
+        <h3>เพราะเราคู่กัน 2gether The Series</h3>
+        <a href="https://www.youtube.com/results?search_query=2gether+The+Series+Official+Trailer" target="_blank">
+        ดูตัวอย่าง
+        </a>
     </div>
 
     <div class="card">
-        <h3>Bad Buddy</h3>
-        <iframe src="https://www.youtube.com/embed/8u8QhZx7nJQ" allowfullscreen></iframe>
+        <h3>นิทานพันดาว</h3>
+        <a href="https://www.youtube.com/results?search_query=นิทานพันดาว+Official+Trailer" target="_blank">
+        ดูตัวอย่าง
+        </a>
     </div>
 
     <div class="card">
         <h3>KinnPorsche The Series</h3>
-        <iframe src="https://www.youtube.com/embed/6pVvYq5Vj7E" allowfullscreen></iframe>
+        <a href="https://www.youtube.com/results?search_query=KinnPorsche+Official+Trailer" target="_blank">
+        ดูตัวอย่าง
+        </a>
     </div>
 
     <div class="card">
-        <h3>Love in the Air</h3>
-        <iframe src="https://www.youtube.com/embed/3Xy9vZK4Fq8" allowfullscreen></iframe>
+        <h3>Bad Buddy The Series</h3>
+        <a href="https://www.youtube.com/results?search_query=Bad+Buddy+Official+Trailer" target="_blank">
+        ดูตัวอย่าง
+        </a>
     </div>
 
     <div class="card">
-        <h3>Cutie Pie</h3>
-        <iframe src="https://www.youtube.com/embed/zqKkF4H9f4I" allowfullscreen></iframe>
+        <h3>Until We Meet Again</h3>
+        <a href="https://www.youtube.com/results?search_query=Until+We+Meet+Again+Official+Trailer" target="_blank">
+        ดูตัวอย่าง
+        </a>
     </div>
 
 </div>
